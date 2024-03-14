@@ -112,6 +112,7 @@ const TableRenderer = () => {
     else{
       setSelectedColumns((prev)=>{
         if(columnName=="address"){
+          setGeoData(null)
           return prev.filter(i=>(i.key!="map" && i.key!="address"))
         }
         return prev.filter(i=>i.key!=columnName)
