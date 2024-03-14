@@ -1,0 +1,50 @@
+.addrCell{
+    min-width: 200px;
+}
+
+.hide{
+display: none !important;
+}
+
+.toggleBtn{
+    border: 0px;
+    background-color: transparent !important;
+    border: 2px solid rgb(61, 168, 218);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(2, 78, 112);
+}
+.list{
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+}
+
+
+.list div .addrId{
+display: inline-block;
+width: 68px;
+font-weight: 600;
+}
+
+.addrCell p{
+display: flex;
+gap: 5px;
+min-width: 210px;
+align-items: center;
+}
+.addrCell p span{
+flex-grow: 1;
+}
+
+
+
+.checkBoxContainer, .submitBtn, .searchBar{
+    margin-bottom: 10px;
+}
